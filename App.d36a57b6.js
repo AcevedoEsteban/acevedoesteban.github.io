@@ -34274,7 +34274,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var TextContainer = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\nposition: fixed;\ntop:0;\nleft:0;\ndisplay: flex;\nflex-flow: column nowrap;\n/* border: 1px dashed black; */\nheight:100vh;\nwidth:50%;\n"])));
+var TextContainer = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\nposition: fixed;\ntop:0;\nleft:0;\ndisplay: flex;\nflex-flow: column nowrap;\n/* border: 1px dashed black; */\nheight:99vh;\nwidth:50%;\n"])));
 
 var ProjectName = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'AvenirHeavy';\n  @media ", " {\n    font-size: 70px;\n  }\n  @media ", " {\n    font-size: 80px;\n  }\n  @media ", " {\n    font-size: 120px;\n  }\n  /* border: 1px dashed black; */\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
 
@@ -34485,7 +34485,7 @@ var Heat = _styledComponents.default.img.attrs({
   style: function style(_ref) {
     var scroll = _ref.scroll;
     return {
-      transform: "translate(0px,-".concat(scroll * 24, "%)")
+      transform: "translate(0px,-".concat(scroll * 21, "%)")
     };
   }
 })(_templateObject || (_templateObject = _taggedTemplateLiteral(["\ntransition: transform 0.2s ease-out;\nposition: absolute;\nbottom: -90vh;\nleft:0vw;\n/* border: 1px dashed red; */\nheight: 50vh; \n"]))); // const Tyre = styled.img.attrs({
@@ -35004,7 +35004,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:500vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
+var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:477vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
 
 var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/* outline: 0.1px dashed green; */\nmargin-top:40vh;\nheight:100vh;\nposition: relative;\n"])));
 
@@ -35186,19 +35186,19 @@ var Work = /*#__PURE__*/function (_Component) {
     }, {
       number: '01',
       projectName: 'YachtBay',
-      github: 'https://github.com/AcevedoEsteban/eCommerce',
-      projectDesc: 'eCommerce platform from the ground up with React, Redux, Express & MongoDB.',
+      github: 'https://yachtbay.herokuapp.com/',
+      projectDesc: 'eCommerce site, control your own listed products and checkout safely with paypal.',
       projectType: 'WEB APP',
       roles: ['Full Stack Developer'],
-      site: 'https://yachtbay.herokuapp.com/'
+      site: 'https://github.com/AcevedoEsteban/eCommerce'
     }, {
       number: '02',
       projectName: 'DevConnector',
-      github: 'https://www.youtube.com/watch?v=AILU8hl-dmo',
-      projectDesc: 'iOS app to remember your fav food at each restaurant you eat.',
-      projectType: 'iOS APP',
+      github: 'https://boiling-caverns-02792.herokuapp.com/',
+      projectDesc: 'Create and personalize your profile to connect with other developers around the world.',
+      projectType: 'WEB APP',
       roles: ['Full Stack Develeoper'],
-      site: 'https://www.youtube.com/watch?v=AILU8hl-dmo'
+      site: 'https://github.com/AcevedoEsteban/devNetwork'
     }, {
       number: '03',
       projectName: 'ComingOrNot',
@@ -35337,7 +35337,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 120vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /* border: 1px solid blue; */\n    position: relative;\n    overflow: hidden;\n"])));
+var Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 100vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /* border: 1px solid blue; */\n    position: relative;\n    overflow: hidden;\n"])));
 
 var SkillsTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
@@ -35410,7 +35410,7 @@ var Skills = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, {
         scrollPercent: scrollPercent
-      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "React", /*#__PURE__*/_react.default.createElement("br", null), "React Native", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Rapid Prototyping", /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Responsive Design", /*#__PURE__*/_react.default.createElement("br", null), "Testing & Debugging", /*#__PURE__*/_react.default.createElement("br", null), "Application Architecture", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Sketch", /*#__PURE__*/_react.default.createElement("br", null), "Principle", /*#__PURE__*/_react.default.createElement("br", null), "Abstract", /*#__PURE__*/_react.default.createElement("br", null))));
+      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "React", /*#__PURE__*/_react.default.createElement("br", null), "React Native", /*#__PURE__*/_react.default.createElement("br", null), "Redux", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "Express.js", /*#__PURE__*/_react.default.createElement("br", null), "Javascript", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Rapid Prototyping", /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Responsive Design", /*#__PURE__*/_react.default.createElement("br", null), "Testing & Debugging", /*#__PURE__*/_react.default.createElement("br", null), "Application Architecture", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "MERN", /*#__PURE__*/_react.default.createElement("br", null), "Principle", /*#__PURE__*/_react.default.createElement("br", null), "Abstract", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -35588,7 +35588,7 @@ var ContactTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
     var scrollPercent = _ref.scrollPercent;
     return {
-      transform: "translateX(".concat(scrollPercent * 8, "%)")
+      transform: "translateX(".concat(scrollPercent * 11, "%)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  transition: transform 0.5s ease-out;\n  font-family: 'AvenirHeavy';\n  font-size: 200px;\n  position: absolute;\n  color: #EEE;\n  top:12%;\n  left:-70%;\n  @media ", " {\n    font-size: 180px;\n  }\n  @media ", " {\n    font-size: 200px;\n  }\n  @media ", " {\n    font-size: 350px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
@@ -35661,7 +35661,7 @@ var Contact = /*#__PURE__*/function (_Component) {
       }), /*#__PURE__*/_react.default.createElement(_SocialLogo.default, {
         imgURL: _mail.default,
         alternate: "mail",
-        redirectURL: "mailto:aa.Esteban.Acevedo@gmail.com"
+        redirectURL: "mailto:aaEstebanaa@gmail.com"
       }), /*#__PURE__*/_react.default.createElement(_SocialLogo.default, {
         imgURL: _linkedin.default,
         alternate: "linkedin",
@@ -35863,7 +35863,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64702" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61636" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
