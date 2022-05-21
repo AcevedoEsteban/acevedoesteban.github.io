@@ -35359,7 +35359,7 @@ var SkillsTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
     var scrollPercent = _ref.scrollPercent;
     return {
-      transform: "translateX(-".concat(scrollPercent * 9, "%)")
+      transform: "translateX(-".concat(scrollPercent * 6, "%)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  transition: transform 0.5s ease-out;\n  font-family: 'AvenirHeavy';\n  position: absolute;\n  color: #EEE;\n  top:40%;\n  right:-50%;\n  @media ", " {\n    font-size: 180px;\n  }\n  @media ", " {\n    font-size: 200px;\n  }\n  @media ", " {\n    font-size: 350px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
@@ -35426,7 +35426,7 @@ var Skills = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, {
         scrollPercent: scrollPercent
-      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "React", /*#__PURE__*/_react.default.createElement("br", null), "React Native", /*#__PURE__*/_react.default.createElement("br", null), "Redux", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "Express.js", /*#__PURE__*/_react.default.createElement("br", null), "jQuery", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null), "Testing & Debugging", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Javascript", /*#__PURE__*/_react.default.createElement("br", null), "CSS", /*#__PURE__*/_react.default.createElement("br", null), "HTML", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "MERN", /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Abstract", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null))));
+      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "React", /*#__PURE__*/_react.default.createElement("br", null), "React Native", /*#__PURE__*/_react.default.createElement("br", null), "Redux", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "Express.js", /*#__PURE__*/_react.default.createElement("br", null), "jQuery", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null), "Testing & Debugging", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Javascript", /*#__PURE__*/_react.default.createElement("br", null), "CSS", /*#__PURE__*/_react.default.createElement("br", null), "HTML", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "MERN", /*#__PURE__*/_react.default.createElement("br", null), "Abstract", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -35604,7 +35604,7 @@ var ContactTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
     var scrollPercent = _ref.scrollPercent;
     return {
-      transform: "translateX(".concat(scrollPercent * 14.5, "%)")
+      transform: "translateX(".concat(scrollPercent * 10, "%)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  transition: transform 0.5s ease-out;\n  font-family: 'AvenirHeavy';\n  font-size: 200px;\n  position: absolute;\n  color: #EEE;\n  top:12%;\n  left:-70%;\n  @media ", " {\n    font-size: 180px;\n  }\n  @media ", " {\n    font-size: 200px;\n  }\n  @media ", " {\n    font-size: 350px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
@@ -35879,7 +35879,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58288" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60833" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
