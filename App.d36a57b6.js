@@ -34089,7 +34089,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 40vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /* border: 1px solid blue; */\n    position: relative;\n    overflow: hidden;\n"])));
+var Container = _styledComponents.default.section(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 50vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /* border: 1px solid blue; */\n    position: relative;\n    overflow: hidden;\n"])));
 
 var AboutMeTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
@@ -34368,7 +34368,9 @@ var TextContent = /*#__PURE__*/function (_Component) {
         refreshToggle: refreshToggle,
         inline: true
       }, /*#__PURE__*/_react.default.createElement("a", {
-        href: github
+        href: github,
+        target: "_blank",
+        rel: "noreferrer"
       }, projectName))), /*#__PURE__*/_react.default.createElement(MyRole, null, /*#__PURE__*/_react.default.createElement(BlockTextReveal, {
         refreshToggle: refreshToggle,
         inline: true
@@ -34612,7 +34614,13 @@ TeslaImages.propTypes = {
 };
 var _default = TeslaImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/YachtBay/yachtbayAdminUser.png":"Assets/Images/YachtBay/yachtbayAdminUser.png","../../../../Assets/Images/YachtBay/yachbayHomeScreen.png":"Assets/Images/YachtBay/yachbayHomeScreen.png","../../../../Assets/Images/YachtBay/YachtBayPostItemPhone.png":"Assets/Images/YachtBay/YachtBayPostItemPhone.png","../../../../Assets/Images/YachtBay/yachtbayCheckoutPhone.png":"Assets/Images/YachtBay/yachtbayCheckoutPhone.png"}],"Slides/WideScreen/WorkSlide/ParallaxImages/KosenImages.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/YachtBay/yachtbayAdminUser.png":"Assets/Images/YachtBay/yachtbayAdminUser.png","../../../../Assets/Images/YachtBay/yachbayHomeScreen.png":"Assets/Images/YachtBay/yachbayHomeScreen.png","../../../../Assets/Images/YachtBay/YachtBayPostItemPhone.png":"Assets/Images/YachtBay/YachtBayPostItemPhone.png","../../../../Assets/Images/YachtBay/yachtbayCheckoutPhone.png":"Assets/Images/YachtBay/yachtbayCheckoutPhone.png"}],"Assets/Images/DevConnector/profilePage.png":[function(require,module,exports) {
+module.exports = "/profilePage.8f93baf5.png";
+},{}],"Assets/Images/DevConnector/homepage.png":[function(require,module,exports) {
+module.exports = "/homepage.440a8778.png";
+},{}],"Assets/Images/DevConnector/customPersonlPorfilePhone.png":[function(require,module,exports) {
+module.exports = "/customPersonlPorfilePhone.686b992c.png";
+},{}],"Slides/WideScreen/WorkSlide/ParallaxImages/KosenImages.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34626,11 +34634,11 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _yachtbayAdminUser = _interopRequireDefault(require("../../../../Assets/Images/YachtBay/yachtbayAdminUser.png"));
+var _profilePage = _interopRequireDefault(require("../../../../Assets/Images/DevConnector/profilePage.png"));
 
-var _yachbayHomeScreen = _interopRequireDefault(require("../../../../Assets/Images/YachtBay/yachbayHomeScreen.png"));
+var _homepage = _interopRequireDefault(require("../../../../Assets/Images/DevConnector/homepage.png"));
 
-var _yachtbayCheckoutPhone = _interopRequireDefault(require("../../../../Assets/Images/YachtBay/yachtbayCheckoutPhone.png"));
+var _customPersonlPorfilePhone = _interopRequireDefault(require("../../../../Assets/Images/DevConnector/customPersonlPorfilePhone.png"));
 
 var _templateObject, _templateObject2, _templateObject3;
 
@@ -34754,15 +34762,15 @@ var KosenImages = /*#__PURE__*/function (_Component) {
       var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight;
       scrollPercent -= scrollOffsetInPercent;
       return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(PlayerTab, {
-        src: _yachtbayCheckoutPhone.default,
+        src: _customPersonlPorfilePhone.default,
         scroll: scrollPercent,
         alt: "kosenPlayer"
       }), /*#__PURE__*/_react.default.createElement(EnglishTab, {
-        src: _yachtbayAdminUser.default,
+        src: _profilePage.default,
         scroll: scrollPercent,
         alt: "kosenEnglish"
       }), /*#__PURE__*/_react.default.createElement(JapaneseTab, {
-        src: _yachbayHomeScreen.default,
+        src: _homepage.default,
         scroll: scrollPercent,
         alt: "kosenJapanese"
       }));
@@ -34781,7 +34789,15 @@ KosenImages.propTypes = {
 };
 var _default = KosenImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/YachtBay/yachtbayAdminUser.png":"Assets/Images/YachtBay/yachtbayAdminUser.png","../../../../Assets/Images/YachtBay/yachbayHomeScreen.png":"Assets/Images/YachtBay/yachbayHomeScreen.png","../../../../Assets/Images/YachtBay/yachtbayCheckoutPhone.png":"Assets/Images/YachtBay/yachtbayCheckoutPhone.png"}],"Slides/WideScreen/WorkSlide/ParallaxImages/VoistrapWebImages.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/DevConnector/profilePage.png":"Assets/Images/DevConnector/profilePage.png","../../../../Assets/Images/DevConnector/homepage.png":"Assets/Images/DevConnector/homepage.png","../../../../Assets/Images/DevConnector/customPersonlPorfilePhone.png":"Assets/Images/DevConnector/customPersonlPorfilePhone.png"}],"Assets/Images/Sweep/SweepExample1.png":[function(require,module,exports) {
+module.exports = "/SweepExample1.6f52b0a4.png";
+},{}],"Assets/Images/Sweep/dancingGif.png":[function(require,module,exports) {
+module.exports = "/dancingGif.1fff5ea5.png";
+},{}],"Assets/Images/Sweep/tabletView.png":[function(require,module,exports) {
+module.exports = "/tabletView.ea039b51.png";
+},{}],"Assets/Images/Sweep/pokemon.png":[function(require,module,exports) {
+module.exports = "/pokemon.a4069ec7.png";
+},{}],"Slides/WideScreen/WorkSlide/ParallaxImages/VoistrapWebImages.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34795,13 +34811,13 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _yachbayHomeScreen = _interopRequireDefault(require("../../../../Assets/Images/YachtBay/yachbayHomeScreen.png"));
+var _SweepExample = _interopRequireDefault(require("../../../../Assets/Images/Sweep/SweepExample1.png"));
 
-var _yachtbayAdminUser = _interopRequireDefault(require("../../../../Assets/Images/YachtBay/yachtbayAdminUser.png"));
+var _dancingGif = _interopRequireDefault(require("../../../../Assets/Images/Sweep/dancingGif.png"));
 
-var _yachtbayCheckoutPhone = _interopRequireDefault(require("../../../../Assets/Images/YachtBay/yachtbayCheckoutPhone.png"));
+var _tabletView = _interopRequireDefault(require("../../../../Assets/Images/Sweep/tabletView.png"));
 
-var _YachtBayPostItemPhone = _interopRequireDefault(require("../../../../Assets/Images/YachtBay/YachtBayPostItemPhone.png"));
+var _pokemon = _interopRequireDefault(require("../../../../Assets/Images/Sweep/pokemon.png"));
 
 var _templateObject, _templateObject2, _templateObject3, _templateObject4;
 
@@ -34921,19 +34937,19 @@ var VoistrapWebImages = /*#__PURE__*/function (_Component) {
       var scrollOffsetInPercent = scrollOffset * 100 / scrollHeight;
       scrollPercent -= scrollOffsetInPercent;
       return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(Battery, {
-        src: _YachtBayPostItemPhone.default,
+        src: _pokemon.default,
         scroll: scrollPercent,
         alt: "bigBubble"
       }), /*#__PURE__*/_react.default.createElement(Bubbles, {
-        src: _yachtbayAdminUser.default,
+        src: _dancingGif.default,
         scroll: scrollPercent,
         alt: "bubbles"
       }), /*#__PURE__*/_react.default.createElement(Dots, {
-        src: _yachbayHomeScreen.default,
+        src: _SweepExample.default,
         scroll: scrollPercent,
         alt: "dots"
       }), /*#__PURE__*/_react.default.createElement(Lock, {
-        src: _yachtbayCheckoutPhone.default,
+        src: _tabletView.default,
         scroll: scrollPercent,
         alt: "paths"
       }));
@@ -34952,7 +34968,7 @@ VoistrapWebImages.propTypes = {
 };
 var _default = VoistrapWebImages;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/YachtBay/yachbayHomeScreen.png":"Assets/Images/YachtBay/yachbayHomeScreen.png","../../../../Assets/Images/YachtBay/yachtbayAdminUser.png":"Assets/Images/YachtBay/yachtbayAdminUser.png","../../../../Assets/Images/YachtBay/yachtbayCheckoutPhone.png":"Assets/Images/YachtBay/yachtbayCheckoutPhone.png","../../../../Assets/Images/YachtBay/YachtBayPostItemPhone.png":"Assets/Images/YachtBay/YachtBayPostItemPhone.png"}],"Slides/WideScreen/WorkSlide/ImageContent.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","prop-types":"../node_modules/prop-types/index.js","../../../../Assets/Images/Sweep/SweepExample1.png":"Assets/Images/Sweep/SweepExample1.png","../../../../Assets/Images/Sweep/dancingGif.png":"Assets/Images/Sweep/dancingGif.png","../../../../Assets/Images/Sweep/tabletView.png":"Assets/Images/Sweep/tabletView.png","../../../../Assets/Images/Sweep/pokemon.png":"Assets/Images/Sweep/pokemon.png"}],"Slides/WideScreen/WorkSlide/ImageContent.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35004,7 +35020,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:477vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
+var ImageContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n/* border: 0.1px dashed black; */\nmargin-left:50%;\nwidth:50%;\nheight:470vh;\ndisplay: flex;\nflex-flow: column nowrap;\n"])));
 
 var ImageBox = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n/* outline: 0.1px dashed green; */\nmargin-top:40vh;\nheight:100vh;\nposition: relative;\n"])));
 
@@ -35201,12 +35217,12 @@ var Work = /*#__PURE__*/function (_Component) {
       site: 'https://github.com/AcevedoEsteban/devNetwork'
     }, {
       number: '03',
-      projectName: 'ComingOrNot',
-      github: 'https://www.youtube.com/watch?v=AILU8hl-dmo',
-      projectDesc: 'Event planner web app that strives to ease the work of an organizer, conduct events in a less chaotic way.',
+      projectName: 'Sweep',
+      github: 'https://superdupercjz.github.io/Giphy-Music-Project/',
+      projectDesc: 'Have a gif? want to add a sound bite? use Broom to sweep both together!',
       projectType: 'WEB APP',
-      roles: ['Front-end Developer', 'UI Designer'],
-      site: 'https://www.youtube.com/watch?v=AILU8hl-dmo'
+      roles: ['Front-end Developer'],
+      site: 'https://github.com/SuperDupercjz/Giphy-Music-Project'
     }, {
       number: '',
       projectName: '',
@@ -35337,7 +35353,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 100vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /* border: 1px solid blue; */\n    position: relative;\n    overflow: hidden;\n"])));
+var Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    height: 120vh;/* Since pageSplitTime is 1.4 */\n    width:100%;\n    /* border: 1px solid blue; */\n    position: relative;\n    overflow: hidden;\n"])));
 
 var SkillsTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
@@ -35410,7 +35426,7 @@ var Skills = /*#__PURE__*/function (_Component) {
       var scrollPercent = this.state.scrollPercent;
       return /*#__PURE__*/_react.default.createElement(Container, null, /*#__PURE__*/_react.default.createElement(SkillsTitle, {
         scrollPercent: scrollPercent
-      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "React", /*#__PURE__*/_react.default.createElement("br", null), "React Native", /*#__PURE__*/_react.default.createElement("br", null), "Redux", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "Express.js", /*#__PURE__*/_react.default.createElement("br", null), "Javascript", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Rapid Prototyping", /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Responsive Design", /*#__PURE__*/_react.default.createElement("br", null), "Testing & Debugging", /*#__PURE__*/_react.default.createElement("br", null), "Application Architecture", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "MERN", /*#__PURE__*/_react.default.createElement("br", null), "Principle", /*#__PURE__*/_react.default.createElement("br", null), "Abstract", /*#__PURE__*/_react.default.createElement("br", null))));
+      }, "SKILLS"), /*#__PURE__*/_react.default.createElement(SkillsList, null, /*#__PURE__*/_react.default.createElement("div", null, "React", /*#__PURE__*/_react.default.createElement("br", null), "React Native", /*#__PURE__*/_react.default.createElement("br", null), "Redux", /*#__PURE__*/_react.default.createElement("br", null), "Node.js", /*#__PURE__*/_react.default.createElement("br", null), "Express.js", /*#__PURE__*/_react.default.createElement("br", null), "jQuery", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null), "Testing & Debugging", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("div", null, "Javascript", /*#__PURE__*/_react.default.createElement("br", null), "CSS", /*#__PURE__*/_react.default.createElement("br", null), "HTML", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "MERN", /*#__PURE__*/_react.default.createElement("br", null), "Functional Programming", /*#__PURE__*/_react.default.createElement("br", null), "Abstract", /*#__PURE__*/_react.default.createElement("br", null), "Interaction Development", /*#__PURE__*/_react.default.createElement("br", null))));
     }
   }]);
 
@@ -35588,7 +35604,7 @@ var ContactTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
     var scrollPercent = _ref.scrollPercent;
     return {
-      transform: "translateX(".concat(scrollPercent * 11, "%)")
+      transform: "translateX(".concat(scrollPercent * 14.5, "%)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  transition: transform 0.5s ease-out;\n  font-family: 'AvenirHeavy';\n  font-size: 200px;\n  position: absolute;\n  color: #EEE;\n  top:12%;\n  left:-70%;\n  @media ", " {\n    font-size: 180px;\n  }\n  @media ", " {\n    font-size: 200px;\n  }\n  @media ", " {\n    font-size: 350px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
@@ -35863,7 +35879,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61636" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58288" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
