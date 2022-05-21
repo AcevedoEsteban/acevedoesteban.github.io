@@ -35604,7 +35604,7 @@ var ContactTitle = _styledComponents.default.div.attrs({
   style: function style(_ref) {
     var scrollPercent = _ref.scrollPercent;
     return {
-      transform: "translateX(".concat(scrollPercent * 5, "%)")
+      transform: "translateX(".concat(scrollPercent * 8, "%)")
     };
   }
 })(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  transition: transform 0.5s ease-out;\n  font-family: 'AvenirHeavy';\n  font-size: 200px;\n  position: absolute;\n  color: #EEE;\n  top:12%;\n  left:-70%;\n  @media ", " {\n    font-size: 180px;\n  }\n  @media ", " {\n    font-size: 200px;\n  }\n  @media ", " {\n    font-size: 350px;\n  }\n"])), _breakpoints.default.laptop, _breakpoints.default.laptopL, _breakpoints.default.desktop);
@@ -35879,7 +35879,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61185" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61417" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
